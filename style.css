@@ -1,0 +1,62 @@
+#mapaMundi {
+    width: 80%;
+    height: 98%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#northAmerica {
+    width: 450px;
+}
+#northAmerica:hover {
+    -webkit-filter: drop-shadow(3px 3px 3px rgb(255, 0, 0))
+    drop-shadow(3px 3px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 0))
+    drop-shadow(-3px -3px -px rgb(255, 0, 0));
+}
+
+div > #southAmerica {
+    transform: translate(225px, -47px);
+}
+
+#southAmerica {
+    width: 620px;
+}
+
+#southAmerica:hover {
+    -webkit-filter: drop-shadow(3px 3px 3px rgb(255, 0, 0))
+    drop-shadow(3px 3px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 0))
+    drop-shadow(-3px -3px -3px rgb(255, 0, 0));
+}
+
+div > #africa {
+    transform: translate(400px, -257px);
+}
+
+#africa {
+    width: 160px;
+}
+
+#africa:hover {
+    -webkit-filter: drop-shadow(3px 3px 3px rgb(255, 0, 0))
+    drop-shadow(3px 3px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 0))
+    drop-shadow(-3px -3px -3px rgb(255, 0, 0));
+}
+
+div > #europe {
+    transform: translate(410px, -597px);
+}
+
+#europe {
+    width: 180px;
+}
+
+#europe:hover {
+    -webkit-filter: drop-shadow(3px 3px 3px rgb(255, 0, 0))
+    drop-shadow(3px 3px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 0))
+    drop-shadow(-3px -3px -3px rgb(255, 0, 0));
+}
